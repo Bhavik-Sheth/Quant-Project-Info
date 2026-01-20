@@ -107,12 +107,13 @@ def get_user_input():
         Tuple of (symbols list, timeframes list)
     """
     print("\n" + "="*80)
-    print(" "*20 + "INTERACTIVE STOCK DATA PIPELINE")
+    print(" "*15 + "LIQUID INSTRUMENTS TRADING PIPELINE")
     print("="*80)
     print("\nThis pipeline will:")
     print("  1. Fetch OHLCV data from Yahoo Finance")
     print("  2. Validate and clean the data")
     print("  3. Generate 30+ technical indicators")
+    print("  4. Provide 10 years of historical data (1d) for backtesting")
     print("\n" + "="*80)
     
     # Get stock symbols
@@ -121,18 +122,30 @@ def get_user_input():
     print("Enter one or more stock symbols (comma-separated)")
     print("\nExamples:")
     print("  • Single stock:    AAPL")
-    print("  • Multiple stocks: AAPL, MSFT, GOOGL")
-    print("  • With indices:    AAPL, ^GSPC, ^DJI")
-    print("\nPopular symbols:")
-    print("  Stocks: AAPL, MSFT, GOOGL, AMZN, TSLA, NVDA, META, NFLX")
-    print("  Indices: ^GSPC (S&P 500), ^DJI (Dow Jones), ^IXIC (NASDAQ)")
+    print("  • Multiple stocks: AAPL, MSFT, JPM, NVDA")
+    print("  • With indices:    AAPL, ^GSPC, ^NSEI")
+    print("  • Press Enter for all 36 default liquid instruments")
+    print("\nMajor Indices:")
+    print("  ^GSPC (S&P 500), ^IXIC (NASDAQ), ^DJI (Dow Jones)")
+    print("  ^NSEI (NIFTY 50), ^NSEBANK (BANKNIFTY), ^VIX (Volatility)")
+    print("\nLiquid Stocks (30 across sectors):")
+    print("  Tech: AAPL, MSFT, GOOGL, AMZN, NVDA, META, ORCL")
+    print("  Finance: JPM, BAC, GS, V, MA")
+    print("  Healthcare: JNJ, UNH, PFE, ABBV")
+    print("  Consumer: WMT, PG, KO, MCD")
+    print("  Energy: XOM, CVX, COP")
+    print("  Industrials: BA, CAT, GE")
+    print("  Media: DIS, NFLX")
+    print("  Auto: TSLA, F")
     
     while True:
-        user_symbols = input("\n👉 Enter symbols: ").strip()
+        user_symbols = input("\n👉 Enter symbols (or press Enter for all 36 defaults): ").strip()
         
         if not user_symbols:
-            print("❌ Please enter at least one symbol.")
-            continue
+            # Use all default symbols
+            symbols = DEFAULT_EQUITY_SYMBOLS + DEFAULT_INDEX_SYMBOLS
+            print(f"✅ Using all {len(symbols)} default liquid instruments")
+            break
         
         # Parse symbols
         symbols = [s.strip().upper() for s in user_symbols.split(',') if s.strip()]
@@ -147,12 +160,13 @@ def get_user_input():
     print("\n⏰ SELECT TIMEFRAMES")
     print("-"*80)
     print("Available timeframes:")
-    print("  1m  - 1 minute  (last 7 days)")
-    print("  5m  - 5 minutes (last 60 days)")
-    print("  1h  - 1 hour    (last 2 years)")
-    print("  1d  - 1 day     (last 1 year)")
+    print("  1m  - 1 minute  (last 7 days) - High-frequency patterns")
+    print("  5m  - 5 minutes (last 60 days) - Intraday strategies")
+    print("  1h  - 1 hour    (last 2 years) - Swing trading")
+    print("  1d  - 1 day     (last 10 years) - Long-term analysis & backtesting")
+    print("\n💡 Recommended: 1d for initial backtesting (captures multiple market regimes)")
     print("\nEnter timeframes (comma-separated) or press Enter for all")
-    print("Examples: 1h,1d  or  1m,5m,1h,1d")
+    print("Examples: 1d  or  1h,1d  or  1m,5m,1h,1d")
     
     user_timeframes = input("\n👉 Timeframes (or Enter for all): ").strip()
     
