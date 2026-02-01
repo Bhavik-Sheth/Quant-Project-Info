@@ -15,7 +15,6 @@ __pycache__/
 
 # Environment Variables (CRITICAL - DO NOT COMMIT)
 .env
-.env*
 .env.local
 .env.*.local
 
@@ -26,7 +25,6 @@ __pycache__/
 *.swo
 *~
 .DS_Store
-*.pem
 
 # Database Files
 *.db
@@ -37,12 +35,9 @@ __pycache__/
 *.log
 logs/
 
-# Node Modules (JavaScript/TypeScript)
+# Node Modules (if using JavaScript/Node)
 node_modules/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
 
 # Machine Learning Models (Large Files)
 *.h5
@@ -77,7 +72,6 @@ dist/
 .coverage
 htmlcov/
 .tox/
-/coverage
 
 # Documentation Builds
 docs/_build/
@@ -90,25 +84,3 @@ docs/_build/
 # OS Files
 Thumbs.db
 desktop.ini
-
-# Next.js (UI)
-/.next/
-/out/
-*.tsbuildinfo
-next-env.d.ts
-
-# Dependencies
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-
-# Vercel
-.vercel
-
-# Reports
-consistency_report.json
-pipeline_report.json

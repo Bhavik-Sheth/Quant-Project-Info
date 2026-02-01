@@ -1,0 +1,204 @@
+{
+  "principles": [
+    {
+      "principle": "Cut your losses short and let your profits run",
+      "explanation": "The fundamental rule of trading is to exit losing positions quickly to preserve capital, while allowing winning positions to continue generating profits. This requires discipline to overcome the natural human tendency to hold losers hoping for recovery while selling winners too early to lock in small gains.",
+      "author": "Jesse Livermore",
+      "category": "risk_management",
+      "examples": [
+        "If a stock drops 7-8% from your entry, exit immediately regardless of your opinion",
+        "Use trailing stops on winning positions to capture extended moves"
+      ]
+    },
+    {
+      "principle": "Never average down on losing positions",
+      "explanation": "Adding to a losing position (averaging down) violates proper risk management. It means throwing good money after bad and can turn a small loss into a catastrophic one. If your original thesis was wrong, buying more won't make it right.",
+      "author": "Jesse Livermore",
+      "category": "position_management",
+      "examples": [
+        "If you bought at $100 and it drops to $90, don't buy more to 'lower your average'",
+        "Instead, accept the loss and wait for the stock to prove itself before re-entering"
+      ]
+    },
+    {
+      "principle": "The trend is your friend",
+      "explanation": "Trade in the direction of the major trend. Fighting the tape (trading against the trend) has low probability of success. The market can remain irrational longer than you can remain solvent.",
+      "author": "Multiple Sources",
+      "category": "trend_following",
+      "examples": [
+        "In a strong uptrend, focus on buying dips rather than shorting rallies",
+        "Use trend indicators like moving averages to identify market direction"
+      ]
+    },
+    {
+      "principle": "Stage Analysis: Only buy stocks in Stage 2 uptrends",
+      "explanation": "Mark Minervini's stage analysis identifies four market stages. Stage 1 is accumulation (basing), Stage 2 is markup (uptrend), Stage 3 is distribution (topping), Stage 4 is decline. The highest probability trades occur in Stage 2 when a stock breaks out of a proper base with strong volume.",
+      "author": "Mark Minervini",
+      "category": "entry_timing",
+      "examples": [
+        "Wait for a stock to break above resistance on increasing volume",
+        "Avoid stocks in Stage 4 decline regardless of how 'cheap' they appear"
+      ]
+    },
+    {
+      "principle": "Risk no more than 1-2% of capital per trade",
+      "explanation": "Proper position sizing is critical for long-term survival. By risking only 1-2% per trade, you can withstand a string of losses without depleting your capital. This allows you to stay in the game and profit when favorable conditions return.",
+      "author": "Mark Minervini",
+      "category": "position_sizing",
+      "examples": [
+        "With $100,000 capital, risk no more than $1,000-$2,000 per trade",
+        "Calculate position size: (Account Risk) / (Entry Price - Stop Loss Price)"
+      ]
+    },
+    {
+      "principle": "Always use stop losses",
+      "explanation": "Every trade must have a predefined stop loss before entry. This is your maximum acceptable loss level. Stop losses protect you from catastrophic losses and force discipline. They should be placed at technically significant levels (below support, below recent swing lows).",
+      "author": "Mark Minervini",
+      "category": "risk_management",
+      "examples": [
+        "Place stops below the most recent swing low for long positions",
+        "Never move a stop loss further away from your entry (only tighten it)"
+      ]
+    },
+    {
+      "principle": "High win rate requires strict stock selection",
+      "explanation": "To achieve win rates above 60%, you must be extremely selective. This means passing on marginal setups and only trading when multiple factors align: strong trend, proper base, volume confirmation, relative strength, and favorable market environment.",
+      "author": "Mark Minervini",
+      "category": "stock_selection",
+      "examples": [
+        "Require stocks to be within 15% of 52-week highs",
+        "Demand relative strength vs market (stock outperforming index)"
+      ]
+    },
+    {
+      "principle": "Diversification is protection against ignorance",
+      "explanation": "While diversification reduces unsystematic risk, over-diversification dilutes returns. If you thoroughly understand your positions, concentrated portfolios can generate superior returns. However, this requires deep research and conviction.",
+      "author": "Warren Buffett",
+      "category": "portfolio_management",
+      "examples": [
+        "Hold 5-10 high-conviction positions rather than 50 mediocre ones",
+        "Ensure positions are in uncorrelated sectors to maintain diversification benefit"
+      ]
+    },
+    {
+      "principle": "Buy the strongest stocks in strong industries",
+      "explanation": "Relative strength matters. The strongest stocks in the strongest sectors tend to outperform. Use relative strength indicators to compare individual stocks to their sector and sector to the overall market.",
+      "author": "William O'Neil",
+      "category": "stock_selection",
+      "examples": [
+        "Compare stock's 6-month return vs its sector",
+        "Only buy stocks showing >80 relative strength rating"
+      ]
+    },
+    {
+      "principle": "Eliminate emotion through systematic rules",
+      "explanation": "Emotional trading leads to buying high (FOMO) and selling low (panic). Create a rules-based system that defines exactly when you enter, exit, and manage risk. Follow the rules even when emotions scream otherwise.",
+      "author": "Ray Dalio",
+      "category": "trading_psychology",
+      "examples": [
+        "Write down your trading rules before the market opens",
+        "Use automated alerts rather than watching every tick"
+      ]
+    },
+    {
+      "principle": "Volatility is not risk; permanent loss of capital is risk",
+      "explanation": "High volatility doesn't necessarily mean high risk if you understand what you own. True risk is the permanent impairment of capital. Use position sizing to manage volatility, but don't confuse price swings with actual risk.",
+      "author": "Ray Dalio",
+      "category": "risk_philosophy",
+      "examples": [
+        "A high-quality stock down 20% in a correction isn't risky; it's opportunity",
+        "A speculative stock with no earnings can be risky even at low volatility"
+      ]
+    },
+    {
+      "principle": "The market discounts everything",
+      "explanation": "All known information is already reflected in current prices. Don't waste time trying to trade on publicly available news. By the time you read it, the market has already moved. Focus on price action which reveals what the crowd doesn't yet know.",
+      "author": "Dow Theory",
+      "category": "market_philosophy",
+      "examples": [
+        "If a stock drops on 'good' news, the news wasn't as good as expected",
+        "Price action reveals the truth; ignore the narrative"
+      ]
+    },
+    {
+      "principle": "Trade small during losing streaks, large during winning streaks",
+      "explanation": "Position sizing should vary with your performance. When you're in a drawdown, reduce size to preserve capital. When you're performing well, increase size to maximize returns. This is the opposite of what most traders do emotionally.",
+      "author": "Van Tharp",
+      "category": "position_sizing",
+      "examples": [
+        "After 3 consecutive losses, reduce position size by 50%",
+        "After 5 consecutive wins, you can increase size by 25%"
+      ]
+    },
+    {
+      "principle": "Avoid overtrading: Quality over quantity",
+      "explanation": "Each trade has transaction costs and execution risk. High-frequency trading without an edge leads to death by a thousand cuts. Wait for high-probability setups rather than forcing trades. Being in cash is a position.",
+      "author": "Multiple Sources",
+      "category": "trade_frequency",
+      "examples": [
+        "If your average holding period is under 2 days, you may be overtrading",
+        "Track your win rate by holding period to find your optimal timeframe"
+      ]
+    },
+    {
+      "principle": "Volatility clustering: High volatility begets more volatility",
+      "explanation": "Markets exhibit volatility clustering where calm periods are followed by calm periods and volatile periods by more volatility. Adjust position sizing based on current volatility regime. Use smaller positions during high-volatility periods.",
+      "author": "Modern Portfolio Theory",
+      "category": "volatility_management",
+      "examples": [
+        "When VIX >30, reduce position sizes by 50%",
+        "Use ATR (Average True Range) to dynamically adjust stop distances"
+      ]
+    },
+    {
+      "principle": "Mean reversion in range-bound markets",
+      "explanation": "When markets lack a clear trend (low ADX), mean reversion strategies work better. Buy oversold conditions and sell overbought. However, disable these strategies when ADX rises above 25, indicating a trending market where momentum strategies perform better.",
+      "author": "Quantitative Trading",
+      "category": "regime_adaptation",
+      "examples": [
+        "Use RSI <30 to buy only when ADX <20",
+        "Switch to trend-following when ADX >25"
+      ]
+    },
+    {
+      "principle": "Correlation shifts during crises",
+      "explanation": "Diversification fails when you need it most. During market crashes, correlations approach 1.0 as everything sells off together. True protection requires uncorrelated assets (gold, treasuries, options) or systematic hedging strategies.",
+      "author": "Risk Management Theory",
+      "category": "crisis_management",
+      "examples": [
+        "Don't assume sector diversification provides crash protection",
+        "Use protective puts or tail-risk hedges for insurance"
+      ]
+    },
+    {
+      "principle": "Watch the options market for volatility signals",
+      "explanation": "Implied volatility from options prices reveals market expectations. When IV is much higher than realized volatility, consider selling premium. When IV is low but you expect a move, buying options can be profitable. IV/RV spread is a valuable signal.",
+      "author": "Options Trading Theory",
+      "category": "volatility_trading",
+      "examples": [
+        "If IV percentile >80, consider credit spreads",
+        "Before earnings, IV typically elevates - compare to historical patterns"
+      ]
+    },
+    {
+      "principle": "Macro events require position adjustments",
+      "explanation": "Major macro events (Fed meetings, CPI reports, geopolitical shocks) can override technical analysis. Reduce position sizes before high-impact scheduled events. Be prepared for gap moves that violate technical levels.",
+      "author": "Macro Trading",
+      "category": "event_risk",
+      "examples": [
+        "Exit or hedge positions before FOMC announcements if holding overnight",
+        "Watch economic calendar and reduce risk before major data releases"
+      ]
+    },
+    {
+      "principle": "Backtest everything, but trust nothing completely",
+      "explanation": "Backtesting reveals historical edge but doesn't guarantee future performance. Markets evolve, edges decay, and overfitting is rampant. Use backtesting to understand strategy behavior, but combine it with forward testing and walk-forward analysis.",
+      "author": "Quantitative Trading",
+      "category": "strategy_development",
+      "examples": [
+        "Require out-of-sample testing to validate strategies",
+        "Monitor live performance vs backtest to detect regime changes"
+      ]
+    }
+  ]
+}
